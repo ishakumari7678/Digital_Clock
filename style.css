@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: url("pexels-francesco-ungaro-464336.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.clock {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.box {
+  background: rgba(70, 64, 153, 0.7);
+  border-radius: 6px;
+  text-align: center;
+  min-width: 90px;
+}
+
+.box span {
+  padding: 30px 40px;
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  color: white;
+}
+
+.box p {
+  padding: 20px 50px;
+  display: block;
+  font-size: 14px;
+  color: #ddd;
+  background: rgb(70, 64, 153);
+}
+
+.ampm {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 5px;
+  position: relative;
+  top: 55px;
+}
